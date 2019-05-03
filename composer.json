@@ -5,5 +5,13 @@
             "name": "Garam Park",
             "email": "gr.park@storyg.co"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "StoryG\\":"src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7"
+    }
 }
